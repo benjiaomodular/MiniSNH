@@ -1,0 +1,48 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,6.0.11+dfsg-1~bpo11+1*%
+%TF.CreationDate,2023-06-07T14:08:47+08:00*%
+%TF.ProjectId,MiniSNH v1.0 - Front,4d696e69-534e-4482-9076-312e30202d20,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 6.0.11+dfsg-1~bpo11+1) date 2023-06-07 14:08:47*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,4.200000*%
+%ADD11C,8.000000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,*%
+X114974998Y-68613020D03*
+%TD*%
+%TO.C,*%
+X115025064Y-161499910D03*
+%TD*%
+%TO.C,*%
+X115025065Y-101999905D03*
+%TD*%
+%TO.C,*%
+X119999999Y-146882027D03*
+%TD*%
+D11*
+%TO.C,*%
+X120000000Y-131700000D03*
+%TD*%
+D10*
+%TO.C,*%
+X125024997Y-68613022D03*
+%TD*%
+%TO.C,*%
+X125024997Y-101920315D03*
+%TD*%
+%TO.C,*%
+X125024999Y-161499910D03*
+%TD*%
+D11*
+%TO.C,*%
+X120000000Y-82400000D03*
+%TD*%
+M02*

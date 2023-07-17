@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.735001,
-          "height": 4.2,
-          "width": 4.2
+          "drill": 6.0,
+          "height": 7.0,
+          "width": 7.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -58,8 +58,10 @@
       "drc_exclusions": [
         "silk_over_copper|113600185|102054867|b4bfec7b-bf3c-44d0-a2ee-a4f42559a2c0|6238dd24-9c9d-4913-8e6d-f684d3913a9d",
         "silk_over_copper|113784124|162215835|92e41a4b-19e5-42e6-8986-3bd548e64c28|a4b743b0-1c14-4e7f-b2f8-9dd478ff5758",
+        "silk_over_copper|116035207|162524532|92e41a4b-19e5-42e6-8986-3bd548e64c28|a4b743b0-1c14-4e7f-b2f8-9dd478ff5758",
         "silk_over_copper|123604513|161561117|60e864e6-7e63-4443-ab90-047d0180c359|ea534cf3-7ba2-47ec-8ee6-387a7291e282",
         "silk_over_copper|123604607|101992364|13df24e0-6238-4bec-84d5-b4686dfd5cb3|5fd65569-3fe1-4019-b369-741ba4385110",
+        "silk_over_copper|124902698|103355133|13df24e0-6238-4bec-84d5-b4686dfd5cb3|5fd65569-3fe1-4019-b369-741ba4385110",
         "silk_over_copper|135000000|124196250|8ca0050d-57ad-473f-9b1b-3125dbbf9b42|85dd4422-f55e-4c78-aeee-42e5190f4844",
         "silk_over_copper|135000000|124363750|8ca0050d-57ad-473f-9b1b-3125dbbf9b42|ee5e55d8-5c81-446c-9e81-e9a3d0d50d7a"
       ],
@@ -354,7 +356,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MiniSNH v1.0.kicad_pro",
+    "filename": "MiniSNH.kicad_pro",
     "version": 1
   },
   "net_settings": {
