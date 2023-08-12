@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "MiniSNH")
+    (date "2023-06-07")
+    (rev "V1.1")
+    (company "benjiaomodular")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -52,7 +59,6 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
-    (grid_origin 110 49)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -84,7 +90,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "./MiniSNH v1.1 - Front")
     )
   )
 
@@ -102,7 +108,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 30978a0a-2e53-4750-bccf-80150e5e3d04)
     )
-    (pad "1" thru_hole circle locked (at 0 0) (size 4.2 4.2) (drill 3.735001) (layers *.Cu *.Mask) (tstamp ef54702e-d8a6-431d-a65a-f40686e41f92))
+    (pad "1" thru_hole circle locked (at 0 0) (size 7 7) (drill 6) (layers *.Cu *.Mask) (tstamp ef54702e-d8a6-431d-a65a-f40686e41f92))
   )
 
   (footprint "Wire_Pads:SolderWirePad_single_0-8mmDrill" (layer "F.Cu")
@@ -117,7 +123,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp c3ae3462-a8d7-4ba3-b973-96c0a204f019)
     )
-    (pad "5" thru_hole circle locked (at 0 0) (size 4.2 4.2) (drill 3.735001) (layers *.Cu *.Mask) (tstamp a4b743b0-1c14-4e7f-b2f8-9dd478ff5758))
+    (pad "5" thru_hole circle locked (at 0 0) (size 7 7) (drill 6) (layers *.Cu *.Mask) (tstamp a4b743b0-1c14-4e7f-b2f8-9dd478ff5758))
   )
 
   (footprint "LOGO" (layer "F.Cu")
@@ -7921,7 +7927,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 64e2c591-f51d-4651-9c13-6ac4e03d7d8e)
     )
-    (pad "3" thru_hole circle locked (at 0 0) (size 4.2 4.2) (drill 3.735001) (layers *.Cu *.Mask) (tstamp 6238dd24-9c9d-4913-8e6d-f684d3913a9d))
+    (pad "3" thru_hole circle locked (at 0 0) (size 7 7) (drill 6) (layers *.Cu *.Mask) (tstamp 6238dd24-9c9d-4913-8e6d-f684d3913a9d))
   )
 
   (footprint "LOGO" (layer "F.Cu")
@@ -8190,6 +8196,38 @@
       ) (layer "F.Mask") (width 0.01) (fill solid) (tstamp c916c0ba-cbd3-4671-aab0-9a9694e19db1))
   )
 
+  (footprint "benjiaomodular:Panel_4HP" (layer "F.Cu")
+    (tedit 621B2114) (tstamp 81d73627-b6d9-4c3f-b177-b8c6e7a660c6)
+    (at 110 49)
+    (attr through_hole)
+    (fp_text reference "REF**" (at 18 -1) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e69793e1-bfcc-4103-aad3-3c6988da4348)
+    )
+    (fp_text value "Panel_4HP" (at 4 -1) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 52c18f4f-c030-4fe5-a67a-98289e9701f7)
+    )
+    (fp_text user "Clearance for 2020 Aluminum Extrusion" (at 10.5 11.5) (layer "Dwgs.User")
+      (effects (font (size 0.8 0.8) (thickness 0.12)))
+      (tstamp 0d34e6db-50d3-44c2-953d-7e14d9da5d73)
+    )
+    (fp_text user "Clearance for 2020 Aluminum Extrusion" (at 10.5 116.5) (layer "Dwgs.User")
+      (effects (font (size 0.8 0.8) (thickness 0.12)))
+      (tstamp c82ccadb-122b-4a54-8c50-804b48d6acae)
+    )
+    (fp_line (start 0 128.5) (end 0 0) (layer "Dwgs.User") (width 0.12) (tstamp 69064f62-874e-4b6e-8ad8-ef9640529207))
+    (fp_line (start 20 0) (end 20 128.5) (layer "Dwgs.User") (width 0.12) (tstamp 740e52f6-6e62-4740-9980-8ff02083ef74))
+    (fp_line (start 0 125.5) (end 20 125.5) (layer "Dwgs.User") (width 0.12) (tstamp 80cd3dd3-3206-4488-b92a-ff56b13b63c8))
+    (fp_line (start 0 13) (end 20 13) (layer "Dwgs.User") (width 0.12) (tstamp 907b5dc0-2dad-42f7-8908-fff7d83d526a))
+    (fp_line (start 0 3) (end 20 3) (layer "Dwgs.User") (width 0.12) (tstamp 912a03f3-a2d4-4da7-a551-07eaa03b4a79))
+    (fp_line (start 0 115.5) (end 20 115.5) (layer "Dwgs.User") (width 0.12) (tstamp b792e669-f062-4194-a4c9-8552af973c91))
+    (fp_line (start 0 0) (end 20 0) (layer "Dwgs.User") (width 0.12) (tstamp d8be180c-e892-436a-a84b-8c87c8044c68))
+    (fp_line (start 20 128.5) (end 0 128.5) (layer "Dwgs.User") (width 0.12) (tstamp e3c4c24d-09b5-4013-8ffb-ca7b92430f78))
+    (pad "" thru_hole oval locked (at 7.5 125.5) (size 7 4.2) (drill oval 6 3.2) (layers *.Cu *.Mask) (tstamp 03f69da2-c654-47cd-95d7-195a787f614d))
+    (pad "" thru_hole oval locked (at 7.5 3) (size 7 4.2) (drill oval 6 3.2) (layers *.Cu *.Mask) (tstamp 79981173-5ff7-45e3-82ca-6a6daa62d7e0))
+  )
+
   (footprint "Wire_Pads:SolderWirePad_single_0-8mmDrill" (layer "F.Cu")
     (tedit 0) (tstamp 9d7076bb-1202-4f37-8a4e-6757c565259b)
     (at 119.999999 146.882027)
@@ -8202,7 +8240,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp ca55befc-74fa-4da1-9daf-c9d934d37aef)
     )
-    (pad "4" thru_hole circle locked (at 0 0) (size 4.2 4.2) (drill 3.735001) (layers *.Cu *.Mask) (tstamp 6ca51ace-6c3e-4578-9d4a-c3855c1482fd))
+    (pad "4" thru_hole circle locked (at 0 0) (size 7 7) (drill 6) (layers *.Cu *.Mask) (tstamp 6ca51ace-6c3e-4578-9d4a-c3855c1482fd))
   )
 
   (footprint "Wire_Pads:SolderWirePad_single_0-8mmDrill" (layer "F.Cu")
@@ -8232,7 +8270,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp f06c4d96-916a-4461-9924-20f5b5058acf)
     )
-    (pad "2" thru_hole circle locked (at 0 0) (size 4.2 4.2) (drill 3.735001) (layers *.Cu *.Mask) (tstamp 04cdb367-2591-41d4-892d-958a390ccb3a))
+    (pad "2" thru_hole circle locked (at 0 0) (size 7 7) (drill 6) (layers *.Cu *.Mask) (tstamp 04cdb367-2591-41d4-892d-958a390ccb3a))
   )
 
   (footprint "Wire_Pads:SolderWirePad_single_0-8mmDrill" (layer "F.Cu")
@@ -8247,7 +8285,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 7180d06c-b88a-4dff-9ed6-b908e1dc3033)
     )
-    (pad "6" thru_hole circle locked (at 0 0) (size 4.2 4.2) (drill 3.735001) (layers *.Cu *.Mask) (tstamp 5fd65569-3fe1-4019-b369-741ba4385110))
+    (pad "6" thru_hole circle locked (at 0 0) (size 7 7) (drill 6) (layers *.Cu *.Mask) (tstamp 5fd65569-3fe1-4019-b369-741ba4385110))
   )
 
   (footprint "Wire_Pads:SolderWirePad_single_0-8mmDrill" (layer "F.Cu")
@@ -8262,7 +8300,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp a704a8b5-7358-4aec-b132-9eb1851738e1)
     )
-    (pad "7" thru_hole circle locked (at 0 0) (size 4.2 4.2) (drill 3.735001) (layers *.Cu *.Mask) (tstamp ea534cf3-7ba2-47ec-8ee6-387a7291e282))
+    (pad "7" thru_hole circle locked (at 0 0) (size 7 7) (drill 6) (layers *.Cu *.Mask) (tstamp ea534cf3-7ba2-47ec-8ee6-387a7291e282))
   )
 
   (footprint "Wire_Pads:SolderWirePad_single_0-8mmDrill" (layer "F.Cu")
